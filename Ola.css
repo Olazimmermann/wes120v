@@ -1,9 +1,9 @@
-/* ==== Ola.css (Manchester United tema) ==== */
+/* ==== Ola.css ==== */
 
 /* Bakgrunn og tekst */
 body {
     font-family: Arial, sans-serif;
-    background-color: #c70101; /* United-rød */
+    background-color: #c70101; /* rød */
     color: #fff;
     text-align: center;
     margin: 0;
@@ -12,7 +12,7 @@ body {
 
 /* Overskrift */
 h1 {
-    color: #fce300; /* United-gul */
+    color: #fce300; /* gul */
 }
 
 /* Flex-boksene */
