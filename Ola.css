@@ -1,40 +1,35 @@
-/* ===== Ola.css (enkel versjon) ===== */
+/* ==== Ola.css (Manchester United tema) ==== */
 
-/* Bakgrunn og generelt */
+/* Bakgrunn og tekst */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f5f9;
-    color: #333;
+    background-color: #c70101; /* United-rød */
+    color: #fff;
+    text-align: center;
     margin: 0;
     padding: 20px;
-    text-align: center;
 }
 
 /* Overskrift */
 h1 {
-    color: #2c3e50;
+    color: #fce300; /* United-gul */
 }
 
-/* Avsnitt */
-p {
-    font-size: 18px;
-}
-
-/* Flex-container */
+/* Flex-boksene */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: center;
+    gap: 10px;
     margin-top: 20px;
 }
 
 .flex-container div {
-    background: #ffffff;
-    border: 1px solid #ddd;
+    background: #000; /* svart panel */
+    color: #fff;
     padding: 12px;
     border-radius: 8px;
-    width: 250px;
+    width: 240px;
 }
 
 /* Bilde */
@@ -42,4 +37,5 @@ img {
     margin-top: 20px;
     width: 300px;
     border-radius: 10px;
+    border: 3px solid #fce300; /* gul outline */
 }
